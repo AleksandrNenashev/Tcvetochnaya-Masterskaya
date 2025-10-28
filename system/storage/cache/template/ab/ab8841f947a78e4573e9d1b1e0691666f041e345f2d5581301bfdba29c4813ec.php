@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* flowertheme/template/common/menu.twig */
-class __TwigTemplate_6c579039fdee1de782ee22da6b495a425617f8c6c95a90c229d7f05476c318fe extends Template
+class __TwigTemplate_f94e41454f9894c784db8a94ea661d00d37a5b7c6996634ccf2b1fba4d88c8c7 extends Template
 {
     private $source;
     private $macros = [];
@@ -147,7 +147,10 @@ class __TwigTemplate_6c579039fdee1de782ee22da6b495a425617f8c6c95a90c229d7f05476c
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
             // line 40
-            echo "                </ul>
+            echo "                    <li><a href=\"/about_us/\">О нас</a></li>
+                    <li><a href=\"/delivery/\">Доставка и оплата</a></li>
+                    <li><a href=\"/contact/\">Контакты</a></li>
+                </ul>
             </div>
         </div>
     </nav>

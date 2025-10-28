@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* flowertheme/template/common/menu.twig */
-class __TwigTemplate_639e827d46aac22715792e58b3555aacf93b4c07fb8fade43af0a4f907fa2278 extends Template
+class __TwigTemplate_018cc78e155d3934198bfc0c0d18704d81e81b065a7c0a46f9b5e4a7597865ae extends Template
 {
     private $source;
     private $macros = [];
@@ -39,10 +39,7 @@ class __TwigTemplate_639e827d46aac22715792e58b3555aacf93b4c07fb8fade43af0a4f907f
             echo "<div id=\"menu-full\">
 <div class=\"container\">
     <nav id=\"menu\" class=\"navbar\">
-        <div class=\"navbar-header\"><span id=\"category\" class=\"visible-xs\">";
-            // line 5
-            echo ($context["text_category"] ?? null);
-            echo "</span>
+        <div class=\"navbar-header\"><span id=\"category\" class=\"visible-xs\">Категории</span>
           <button type=\"button\" class=\"btn btn-navbar navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\"><i class=\"fa fa-bars\"></i></button>
         </div>
             <div class=\"collapse navbar-collapse navbar-ex1-collapse\">
@@ -150,7 +147,10 @@ class __TwigTemplate_639e827d46aac22715792e58b3555aacf93b4c07fb8fade43af0a4f907f
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
             // line 40
-            echo "                </ul>
+            echo "                    <li><a href=\"http://flower.loc/index.php?route=information/information&information_id=4\">О нас</a></li>
+                    <li><a href=\"http://flower.loc/index.php?route=information/information&information_id=6\">Доставка и оплата</a></li>
+                    <li><a href=\"/contact\">Контакты</a></li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -181,7 +181,7 @@ class __TwigTemplate_639e827d46aac22715792e58b3555aacf93b4c07fb8fade43af0a4f907f
      */
     public function getDebugInfo()
     {
-        return array (  153 => 40,  147 => 39,  139 => 37,  133 => 33,  127 => 32,  121 => 31,  113 => 28,  110 => 27,  104 => 23,  93 => 21,  89 => 20,  82 => 18,  79 => 17,  76 => 16,  71 => 15,  67 => 14,  59 => 12,  56 => 11,  52 => 10,  44 => 5,  39 => 2,  37 => 1,);
+        return array (  150 => 40,  144 => 39,  136 => 37,  130 => 33,  124 => 32,  118 => 31,  110 => 28,  107 => 27,  101 => 23,  90 => 21,  86 => 20,  79 => 18,  76 => 17,  73 => 16,  68 => 15,  64 => 14,  56 => 12,  53 => 11,  49 => 10,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
