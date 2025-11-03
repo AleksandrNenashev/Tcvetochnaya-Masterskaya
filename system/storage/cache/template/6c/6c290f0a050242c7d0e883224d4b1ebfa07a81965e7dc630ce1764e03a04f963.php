@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* flowertheme/template/common/header.twig */
-class __TwigTemplate_e2f371df33c82a8eeb5f15a698991de34102df0e42f4218838007a537853e2a3 extends Template
+class __TwigTemplate_09a2db931e9bf6b123e390bc1f1ca8ccfb08f3545fe1742e9814825d10de89d5 extends Template
 {
     private $source;
     private $macros = [];
@@ -192,147 +192,18 @@ class __TwigTemplate_e2f371df33c82a8eeb5f15a698991de34102df0e42f4218838007a53785
         // line 51
         echo "</head>
 <body>
-<nav id=\"top\">
-  <div class=\"container\">
-  <div class=\"top-links nav pull-left\">
-    <ul class=\"list-inline\">
-    <li>
-\t\t<div class=\"logo hidden-sm hidden-md hidden-lg\">
-          ";
-        // line 59
-        if (($context["logo"] ?? null)) {
-            // line 60
-            echo "            ";
-            if ((($context["home"] ?? null) == ($context["og_url"] ?? null))) {
-                // line 61
-                echo "              <img src=\"";
-                echo ($context["logo"] ?? null);
-                echo "\" title=\"";
-                echo ($context["name"] ?? null);
-                echo "\" alt=\"";
-                echo ($context["name"] ?? null);
-                echo "\" class=\"img-responsive\" />
-            ";
-            } else {
-                // line 63
-                echo "              <a href=\"";
-                echo ($context["home"] ?? null);
-                echo "\"><img src=\"";
-                echo ($context["logo"] ?? null);
-                echo "\" title=\"";
-                echo ($context["name"] ?? null);
-                echo "\" alt=\"";
-                echo ($context["name"] ?? null);
-                echo "\" class=\"img-responsive\" /></a>
-            ";
-            }
-            // line 65
-            echo "          ";
-        } else {
-            // line 66
-            echo "            <h1><a href=\"";
-            echo ($context["home"] ?? null);
-            echo "\">";
-            echo ($context["name"] ?? null);
-            echo "</a></h1>
-          ";
-        }
-        // line 68
-        echo "\t\t</div>
-    </li>
-    <li><a href=\"";
-        // line 70
-        echo ($context["contact"] ?? null);
-        echo "\"><span class=\"hidden-xs\">";
-        echo ($context["address"] ?? null);
-        echo "</span></a></li>
-\t</ul>
-\t</div>
-    <div id=\"top-links\" class=\"nav pull-right\">
-      <ul class=\"list-inline\">
-        <li><a href=\"";
-        // line 75
-        echo ($context["contact"] ?? null);
-        echo "\"><i class=\"fa fa-map-marker hidden-lg hidden-sm visible-xs\"></i> <span class=\"hidden\">";
-        echo ($context["address"] ?? null);
-        echo "</span></a></li>
-        <li class=\"dropdown\"><a href=\"";
-        // line 76
-        echo ($context["account"] ?? null);
-        echo "\" title=\"";
-        echo ($context["text_account"] ?? null);
-        echo "\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"><i class=\"fa fa-user-circle-o hidden-sm hidden-md hidden-lg\"></i> <span class=\"hidden-xs\">";
-        echo ($context["text_account"] ?? null);
-        echo "</span></a>
-          <ul class=\"dropdown-menu dropdown-menu-right\">
-            ";
-        // line 78
-        if (($context["logged"] ?? null)) {
-            // line 79
-            echo "            <li><a href=\"";
-            echo ($context["account"] ?? null);
-            echo "\">";
-            echo ($context["text_account"] ?? null);
-            echo "</a></li>
-            <li><a href=\"";
-            // line 80
-            echo ($context["order"] ?? null);
-            echo "\">";
-            echo ($context["text_order"] ?? null);
-            echo "</a></li>
-            <li><a href=\"";
-            // line 81
-            echo ($context["transaction"] ?? null);
-            echo "\">";
-            echo ($context["text_transaction"] ?? null);
-            echo "</a></li>
-            <li><a href=\"";
-            // line 82
-            echo ($context["download"] ?? null);
-            echo "\">";
-            echo ($context["text_download"] ?? null);
-            echo "</a></li>
-            <li><a href=\"";
-            // line 83
-            echo ($context["logout"] ?? null);
-            echo "\">";
-            echo ($context["text_logout"] ?? null);
-            echo "</a></li>
-            ";
-        } else {
-            // line 85
-            echo "            <li><a href=\"";
-            echo ($context["register"] ?? null);
-            echo "\">";
-            echo ($context["text_register"] ?? null);
-            echo "</a></li>
-            <li><a href=\"";
-            // line 86
-            echo ($context["login"] ?? null);
-            echo "\">";
-            echo ($context["text_login"] ?? null);
-            echo "</a></li>
-            ";
-        }
-        // line 88
-        echo "          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
 <header>
   <div class=\"container\">
     <div class=\"row\">
       <div class=\"hidden-xs col-sm-3 col-md-3 col-lg-3\">
 \t\t<div id=\"logo\">
           ";
-        // line 99
+        // line 58
         if (($context["logo"] ?? null)) {
-            // line 100
+            // line 59
             echo "            ";
             if ((($context["home"] ?? null) == ($context["og_url"] ?? null))) {
-                // line 101
+                // line 60
                 echo "              <img src=\"";
                 echo ($context["logo"] ?? null);
                 echo "\" title=\"";
@@ -342,7 +213,7 @@ class __TwigTemplate_e2f371df33c82a8eeb5f15a698991de34102df0e42f4218838007a53785
                 echo "\" class=\"img-responsive\" />
             ";
             } else {
-                // line 103
+                // line 62
                 echo "              <a href=\"";
                 echo ($context["home"] ?? null);
                 echo "\"><img src=\"";
@@ -354,10 +225,10 @@ class __TwigTemplate_e2f371df33c82a8eeb5f15a698991de34102df0e42f4218838007a53785
                 echo "\" class=\"img-responsive\" /></a>
             ";
             }
-            // line 105
+            // line 64
             echo "          ";
         } else {
-            // line 106
+            // line 65
             echo "            <h1><a href=\"";
             echo ($context["home"] ?? null);
             echo "\">";
@@ -365,35 +236,41 @@ class __TwigTemplate_e2f371df33c82a8eeb5f15a698991de34102df0e42f4218838007a53785
             echo "</a></h1>
           ";
         }
-        // line 108
+        // line 67
         echo "\t\t</div>
       </div>
       <div class=\"top-phone-open col-xs-8 col-sm-3 col-md-3 col-lg-3\">
         <div class=\"top-phone\"><a href=\"tel:";
-        // line 111
+        // line 70
         echo ($context["telephone"] ?? null);
         echo "\"><i class=\"fa fa-phone\"></i> ";
         echo ($context["telephone"] ?? null);
         echo "</a></div>
         <div class=\"top-open\">";
-        // line 112
+        // line 71
         echo ($context["open"] ?? null);
         echo "</div>
+          <div class=\"top-open\"><a href=\"";
+        // line 72
+        echo ($context["contact"] ?? null);
+        echo "\"><span class=\"hidden-xs\">";
+        echo ($context["address"] ?? null);
+        echo "</span></a></div>
         <!-- <div class=\"top-links nav pull-left\"><a href=\"http://flower.loc/index.php?route=information/contact\"><span class=\"hidden-xs\">г. Отрадный, ул. Ленина 10 оф. 32</span></a></div> -->
       </div>
       <div class=\"col-xs-4 col-sm-2 col-md-2 col-lg-2\">";
-        // line 115
+        // line 75
         echo ($context["cart"] ?? null);
         echo "</div>
       <div class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\">";
-        // line 116
+        // line 76
         echo ($context["search"] ?? null);
         echo "</div>
     </div>
   </div>
 </header>
 ";
-        // line 120
+        // line 80
         echo ($context["menu"] ?? null);
         echo "
 ";
@@ -420,7 +297,7 @@ class __TwigTemplate_e2f371df33c82a8eeb5f15a698991de34102df0e42f4218838007a53785
      */
     public function getDebugInfo()
     {
-        return array (  397 => 120,  390 => 116,  386 => 115,  380 => 112,  374 => 111,  369 => 108,  361 => 106,  358 => 105,  346 => 103,  336 => 101,  333 => 100,  331 => 99,  318 => 88,  311 => 86,  304 => 85,  297 => 83,  291 => 82,  285 => 81,  279 => 80,  272 => 79,  270 => 78,  261 => 76,  255 => 75,  245 => 70,  241 => 68,  233 => 66,  230 => 65,  218 => 63,  208 => 61,  205 => 60,  203 => 59,  193 => 51,  185 => 49,  181 => 48,  170 => 46,  166 => 45,  163 => 44,  154 => 42,  150 => 41,  137 => 39,  133 => 38,  122 => 31,  116 => 29,  110 => 27,  108 => 26,  104 => 25,  98 => 23,  92 => 21,  90 => 20,  84 => 18,  82 => 17,  77 => 16,  71 => 14,  69 => 13,  65 => 12,  54 => 6,  47 => 4,  41 => 3,  37 => 1,);
+        return array (  274 => 80,  267 => 76,  263 => 75,  255 => 72,  251 => 71,  245 => 70,  240 => 67,  232 => 65,  229 => 64,  217 => 62,  207 => 60,  204 => 59,  202 => 58,  193 => 51,  185 => 49,  181 => 48,  170 => 46,  166 => 45,  163 => 44,  154 => 42,  150 => 41,  137 => 39,  133 => 38,  122 => 31,  116 => 29,  110 => 27,  108 => 26,  104 => 25,  98 => 23,  92 => 21,  90 => 20,  84 => 18,  82 => 17,  77 => 16,  71 => 14,  69 => 13,  65 => 12,  54 => 6,  47 => 4,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()

@@ -5,6 +5,9 @@ body {
 	line-height: 20px;
 	width: 100%;
 }
+header{
+    padding-top: 15px;
+}
 h1, h2, h3, h4, h5, h6 {
 	color: #444;
 }
@@ -129,7 +132,8 @@ div.required .control-label:before {
 }
 /* logo */
 #logo, .logo {
-	margin: 0 0 10px 0;
+    text-align: center;
+    display: block ruby;
 }
 /* search */
 #search {
