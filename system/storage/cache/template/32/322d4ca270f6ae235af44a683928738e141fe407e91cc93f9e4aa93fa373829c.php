@@ -1,12 +1,62 @@
-{% if modules %}
-    <aside id="column-left" class="col-sm-3 hidden-xs">
-        <div class="sidebar-modules">
-            {% for module in modules %}
-                <div class="sidebar-module-wrapper">
-                    {{ module }}
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* default/template/common/column_left.twig */
+class __TwigTemplate_0ff7423e4204c47cbf973fdcbde07e1b585039cdfbf543f495c191f9f776e8d1 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        if (($context["modules"] ?? null)) {
+            // line 2
+            echo "    <aside id=\"column-left\" class=\"col-sm-3 hidden-xs\">
+        <div class=\"sidebar-modules\">
+            ";
+            // line 4
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable(($context["modules"] ?? null));
+            foreach ($context['_seq'] as $context["_key"] => $context["module"]) {
+                // line 5
+                echo "                <div class=\"sidebar-module-wrapper\">
+                    ";
+                // line 6
+                echo $context["module"];
+                echo "
                 </div>
-            {% endfor %}
-        </div>
+            ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 9
+            echo "        </div>
     </aside>
 
     <style>
@@ -165,7 +215,7 @@
             display: block !important;
         }
 
-        .sidebar-module-wrapper [class*="col-"] {
+        .sidebar-module-wrapper [class*=\"col-\"] {
             width: 100% !important;
             float: none !important;
         }
@@ -309,4 +359,36 @@
             }, 500);
         });
     </script>
-{% endif %}
+";
+        }
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "default/template/common/column_left.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  59 => 9,  50 => 6,  47 => 5,  43 => 4,  39 => 2,  37 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "default/template/common/column_left.twig", "");
+    }
+}

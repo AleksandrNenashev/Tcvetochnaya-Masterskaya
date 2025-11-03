@@ -1,1 +1,2 @@
 2025-10-23 23:21:35 - PHP Notice:  Error: Could not load template default/template/checkout/cart! in C:\OpenServer\domains\flower.loc\system\storage\modification\system\library\template\twig.php on line 41
+2025-10-28 21:52:25 - PHP Notice:  Error: Could not load template default/template/extension/module/category! in C:\OpenServer\domains\flower.loc\system\storage\modification\system\library\template\twig.php on line 41
