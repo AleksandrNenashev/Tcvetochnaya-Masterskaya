@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* flowertheme/template/common/header.twig */
-class __TwigTemplate_09a2db931e9bf6b123e390bc1f1ca8ccfb08f3545fe1742e9814825d10de89d5 extends Template
+class __TwigTemplate_e5a2ce197599882ea2367f2c639788cca9f2eeb19adb845e251d1cc371e07fd5 extends Template
 {
     private $source;
     private $macros = [];
@@ -195,7 +195,7 @@ class __TwigTemplate_09a2db931e9bf6b123e390bc1f1ca8ccfb08f3545fe1742e9814825d10d
 <header>
   <div class=\"container\">
     <div class=\"row\">
-      <div class=\"hidden-xs col-sm-3 col-md-3 col-lg-3\">
+      <div class=\"col-sm-3 col-md-3 col-lg-3\">
 \t\t<div id=\"logo\">
           ";
         // line 58
@@ -253,9 +253,9 @@ class __TwigTemplate_09a2db931e9bf6b123e390bc1f1ca8ccfb08f3545fe1742e9814825d10d
           <div class=\"top-open\"><a href=\"";
         // line 72
         echo ($context["contact"] ?? null);
-        echo "\"><span class=\"hidden-xs\">";
+        echo "\">";
         echo ($context["address"] ?? null);
-        echo "</span></a></div>
+        echo " Адрес: ул.Сабирзянова 11</a></div>
         <!-- <div class=\"top-links nav pull-left\"><a href=\"http://flower.loc/index.php?route=information/contact\"><span class=\"hidden-xs\">г. Отрадный, ул. Ленина 10 оф. 32</span></a></div> -->
       </div>
       <div class=\"col-xs-4 col-sm-2 col-md-2 col-lg-2\">";
