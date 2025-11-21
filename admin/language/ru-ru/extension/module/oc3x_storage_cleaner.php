@@ -2,7 +2,7 @@
 
 // Heading
 $_['page_title']           = 'Очиcтка кэша';
-$_['heading_title']        = '<a href="https://oc3x.ru/" target="_blank" title="oc3x.ru" style="color:#233746"><i class="fa fa-file-o"></i></a> '. $_['page_title'];
+$_['heading_title']    = '<a href="https://freeopencart.ru" target="_blank" title="Разработчик freeopencart.ru" style="color:#233746"><i class="fa fa-file-o"></i></a> '. $_['page_title'];
 // Tab
 $_['tab_settings']            = 'Настройки';
 $_['tab_help']                = 'Помощь';
